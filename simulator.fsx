@@ -35,12 +35,12 @@ let computeErlangB s a =
 
 printfn "Blocked clients %d" nstop
 printfn "Total clients %d" clients
-printfn "Ration %f" ((nstop |> float)/(clients |> float))
+printfn "Ratio %f" ((nstop |> float)/(clients |> float))
 printfn ""
 
 printfn "Total busy time %f" allBusyTime 
 printfn "Total time %f" arrival
-printfn "Ration %f" (allBusyTime/arrival)
+printfn "Ratio %f" (allBusyTime/arrival)
 printfn ""
 
 //4 * 2.4 = 9.6 erlangs
