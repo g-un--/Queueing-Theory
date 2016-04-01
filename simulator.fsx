@@ -43,4 +43,5 @@ printfn "Total time %f" arrival
 printfn "Ration %f" (allBusyTime/arrival)
 printfn ""
 
+//4 * 2.4 = 9.6 erlangs
 printfn "Erlang B : %f" (computeErlangB 9.6 10) 
